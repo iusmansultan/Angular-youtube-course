@@ -1,1 +1,37 @@
-<p>signup works!</p>
+<div class="container">
+  <div class="signin-container">
+    <div class="full-width">
+      <img src="../../../../assets/images/logo.png" class="logo" />
+    </div>
+
+    <div class="content-container">
+      <div class="welcome-text">Welcome, </div>
+      <p class="des">Create your account</p>
+
+      <div class="input-container">
+        <div class="label">Name</div>
+        <input type="text" class="input" />
+      </div>
+      <div class="input-container">
+        <div class="label">Email</div>
+        <input type="text" class="input" />
+      </div>
+      <div class="input-container">
+        <div class="label">Password</div>
+        <input type="text" class="input" />
+      </div>
+      
+
+      <div class="btn" >Sign Up</div>
+
+      <div class="input-container">
+        <div class="signup" [routerLink]="'/signin'">Already have a account. <b >Sign In</b> </div>
+      </div>
+    </div>
+    <div class="full-width">
+      <p class="footer">copyright 2023.</p>
+    </div>
+  </div>
+
+  <img src="../../../../assets/images/background.jpeg" class="hero-seaction" />
+</div>
